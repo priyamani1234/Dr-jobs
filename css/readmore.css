@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+.about-section{
+    background: url(./img2.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+
+}
+.about-section .inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+.about-section .inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.about-section .inner-container .text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+/* Default Styles */
+.container-head {
+    width: 80%;
+    margin: auto;
+}
+
+.container-head .row h1 {
+    text-align: center;
+    color: black;
+}
+
+.container-head .row p {
+    text-align: center;
+}
+
+.container-head .row .header {
+    width: 60%;
+    margin: 20px 0 0 200px;
+}
+
+.container-head .row .desc {
+    margin-left: 280px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+/* Media Query for devices with a width of 786px and below */
+@media (max-width: 786px) {
+    .container-head .row .header {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+
+    .container-head .row .desc {
+        margin-left: 20%;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* Media Query for devices with a width of 480px and below */
+@media (max-width: 480px) {
+    .container-head .row .header {
+        width: 90%;
+        margin: 20px auto 0 auto;
+    }
+
+    .container-head .row .desc {
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* Media Query for devices with a width of 400px and below */
+@media (max-width: 400px) {
+    .container-head .row .header {
+        width: 95%;
+        margin: 20px auto 0 auto;
+    }
+
+    .container-head .row .desc {
+        margin-left: 10%;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+.container-head .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container-head .content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.container-head .content .card img{
+    width: 100%;
+    height: auto;
+}
+.container-head .content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.container-head .content .card p{
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
+}
+.row1{
+    height: 300px;
+    
+}
+.row1 h1{
+    margin: 10px;
+}
+
+
+.row1 .center input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border: none;
+    width: 150px;
+    padding: 12px;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+@media screen and (max-width:400px){
+    .row1 .center input[type="submit"]{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .row1 .center input[type="submit"]{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:786px){
+    .row1 .center input[type="submit"]{
+        margin-left: 120px;
+    }
+}
+
+.row1 h1{
+    text-align: center;
+}
+.row1 p{
+    text-align: center;
+
+}
+.row1 .center input[type="Connect With Us"]:hover
+{
+    background-color:blue ;
+}   
+    
+  
+
+
+
+@media screen and (max-width:768px){
+    .content{
+        flex-direction: column;
+    }
+}
+
+
+
+
